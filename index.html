@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consulting — Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">CB</div>
+        <div>
+          <div style="font-weight:800">Consulting</div>
+          <div class="muted" style="font-size:12px;margin-top:2px">Business & Advisory</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a class="btn" href="#contact">Contact</a>
+        <a class="btn btn-primary" href="#">Get Started</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-left">
+          <div class="pill">Trusted Advisors</div>
+          <h1>Grow stronger with strategy-led consulting</h1>
+          <p class="lead">Kami membantu perusahaan skala menengah hingga besar merancang strategi pertumbuhan yang terukur, mengurangi biaya, dan membangun proses operasional yang efisien.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#contact">Book a Free Call</a>
+            <a class="btn" href="#services">Our Services</a>
+          </div>
+
+          <div class="stat-grid">
+            <div class="stat">+120 Projects</div>
+            <div class="stat">98% Success</div>
+            <div class="stat">30+ Experts</div>
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <div class="card">
+            <h3 style="margin:0 0 8px">Free diagnostic</h3>
+            <p class="muted" style="margin:0 0 12px">Isi form singkat, tim kami akan menghubungi Anda untuk sesi 30 menit.</p>
+            <form>
+              <div style="display:flex;gap:8px;margin-bottom:8px">
+                <input placeholder="Nama" style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+              </div>
+              <div style="display:flex;gap:8px;margin-bottom:8px">
+                <input placeholder="Email" style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+              </div>
+              <div style="display:flex;gap:8px;margin-bottom:12px">
+                <select style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+                  <option>Choose service</option>
+                  <option>Strategy</option>
+                  <option>Operations</option>
+                  <option>Finance</option>
+                </select>
+              </div>
+              <div style="display:flex;gap:8px;">
+                <button type="button" class="btn btn-primary">Request call</button>
+                <button type="reset" class="btn">Reset</button>
+              </div>
+            </form>
+          </div>
+
+          <div style="margin-top:12px;display:flex;gap:12px">
+            <div class="card" style="flex:1">
+              <div style="font-weight:800">Case Study</div>
+              <div class="muted" style="font-size:13px">Retail chain - 22% revenue growth</div>
+            </div>
+            <div class="card" style="width:120px;display:flex;align-items:center;justify-content:center">
+              <div style="font-size:12px;color:var(--muted)">Trusted by Fortune 500</div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="services">
+        <h2 style="margin-bottom:12px">What we do</h2>
+        <div class="services">
+          <div class="service">
+            <div style="font-size:12px" class="muted">Strategy</div>
+            <h4>Corporate & Growth Strategy</h4>
+            <p>Membantu mengevaluasi pasar, menyusun road map produk, dan model bisnis yang berkelanjutan.</p>
+          </div>
+          <div class="service">
+            <div style="font-size:12px" class="muted">Operations</div>
+            <h4>Operational Excellence</h4>
+            <p>Optimalisasi proses dan cost reduction untuk meningkatkan margin dan kecepatan delivery.</p>
+          </div>
+          <div class="service">
+            <div style="font-size:12px" class="muted">Finance</div>
+            <h4>Finance Transformation</h4>
+            <p>Penguatan sistem pelaporan, forecasting, dan pengendalian internal.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" style="margin-top:20px">
+        <h2>About us</h2>
+        <p class="muted">Kami tim konsultan yang berpengalaman di bidang retail, fintech, dan manufaktur. Fokus kami pada hasil nyata: pertumbuhan pendapatan, efisiensi biaya, dan pembangunan kapabilitas internal.</p>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;margin-top:18px;gap:18px">
+          <div class="testimonial">
+            <strong>Tim ahli</strong>
+            <p class="muted">Kombinasi praktisi industri dan analis data untuk solusi yang praktis dan dapat diukur.</p>
+          </div>
+          <div class="testimonial">
+            <strong>Metodologi</strong>
+            <p class="muted">Framework yang terbukti, disesuaikan dengan konteks bisnis klien.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" style="margin-top:18px">
+        <h2>Client success</h2>
+        <div class="testimonials">
+          <div class="testimonial">
+            <p>"Mereka membantu kami menyusun strategi ekspansi yang realistis. Dalam 6 bulan, pendapatan bertambah signifikan."</p>
+            <div class="muted" style="margin-top:10px">— CEO, RetailCo</div>
+          </div>
+          <div class="testimonial">
+            <p>"Pendekatan mereka praktis dan langsung ke inti masalah."</p>
+            <div class="muted" style="margin-top:10px">— CFO, FinTech Ltd.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner">
+        <div>
+          <div style="font-weight:800">Ready to scale?</div>
+          <div class="muted">Book a free consultation and discover which levers will move your business forward.</div>
+        </div>
+        <div style="display:flex;gap:10px">
+          <a class="btn" href="#contact">Talk to an Expert</a>
+          <a class="btn btn-primary" href="#contact">Get Started</a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>
+        © <span id="year"></span> Consulting — All rights reserved.
+      </div>
+      <div>
+        <span class="muted">Privacy</span> · <span class="muted">Terms</span> · <span class="muted">Contact</span>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
